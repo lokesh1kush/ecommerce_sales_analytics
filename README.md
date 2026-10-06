@@ -23,20 +23,20 @@ SQL queries are used to explore customer spending, orders, product sales, pricin
 
 The project contains 5 main tables:
 
-* `customers` — Customer information
-* `addresses` — Customer address information
-* `products` — Product details
-* `orders` — Order information
-* `order_items` — Products included in each order
+* customers - Customer information
+* addresses - Customer address information
+* products - Product details
+* orders - Order information
+* order_items - Products included in each order
 
 
 ### Database Relationships
 
-* `customers` → `addresses`
-* `customers` → `orders`
-* `addresses` → `orders`
-* `orders` → `order_items`
-* `products` → `order_items`
+* customers → addresses
+* customers → orders
+* addresses → orders
+* orders    → order_items
+* products  → order_items
 
 These tables are connected using primary keys and foreign keys.
 
@@ -71,10 +71,10 @@ The project answers questions such as:
 1. Install MySQL and MySQL Workbench.
 2. Clone this repository.
 3. Open MySQL Workbench and connect to your MySQL server.
-4. Run `database.sql` to create the `ecommerce_analytics` database.
-5. Run `tables.sql` to create the tables.
-6. Run `data.sql` to insert the project data.
-7. Open the SQL files from the `sql` folder.
+4. Run 'database.sql' to create the 'ecommerce_analytics' database.
+5. Run 'tables.sql' to create the tables.
+6. Run 'data.sql' to insert the project data.
+7. Open the SQL files from the 'sql' folder.
 8. Execute the queries to perform the analysis.
 
 
